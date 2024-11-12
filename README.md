@@ -19,4 +19,6 @@ dbt run, but with table dropping <br>
 
 * by default data is materialized following what we defined in <code>dbt_projects.yml</code>. Override using <code>{{ config(materialized='table') }}</code> in the model folder<br>
 
+* <code>dbt seed</code><br>
+load CSV file into project/warehouse <br>
 
